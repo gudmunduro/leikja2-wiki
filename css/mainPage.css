@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400|Roboto');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+}
+
+main {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main section {
+
+}
+
+main section.main {
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+main section.main div {
+    width: 50%;
+    height: 600px;
+}
+
+/* Screenshots */
+main section.main div.screenshots div.main  {
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin: 0;
+    padding: 0;
+}
+main section.main div.screenshots div.other  {
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin: 0;
+    padding: 0;
+}
+
+.testshm {
+    display: block;
+    background-color: red;
+    width: 95%;
+    height: 95%;
+    margin: 2.5% auto;
+}
+
+.testsho {
+
+}
+
+
+/* Info */
+main section.main div.info header {
+    height: 5%;
+}
+main section.main div.info h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.9em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+main section.main div.info article {
+    width: 100%;
+    height: 85%;
+}
+main section.main div.info p {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 80%;
+    height: 150px;
+    margin: 10px auto;
+}
+main section.main div.info div.actions {
+    height: 10%;
+    width: 100%;
+}
+main section.main div.info div.actions a.downloadButton {
+    display: block;
+    width: 100px;
+    height: 20px;
+    color: white;
+    background-color: #3F51B5;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
