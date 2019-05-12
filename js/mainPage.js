@@ -9,15 +9,15 @@ const previews = [
         type: 0,
     },
     {
-        name: 'Capture_133.PNG',
+        name: 'screenshot1.PNG',
         type: 0,
     },
     {
-        name: 'Capture_133.PNG',
+        name: 'screenshot2.PNG',
         type: 0,
     },
     {
-        name: 'Capture_133.PNG',
+        name: 'screenshot3.PNG',
         type: 0,
     },
 ];
@@ -33,12 +33,12 @@ function ElementTagForType(type) {
 function UrlForPreview(preview) {
     switch (preview.type) {
         case 0: return "img/" + preview.name;
-        case 1: return "video/" + preview.name
+        case 1: return "https://files.gudmunduro.com/leikja2-video/" + preview.name
     }
 }
 
 function RenderPreview() {
-    if (previews.length - 1 > currentPreview) {
+    if (previews.length - 1 < currentPreview) {
         throw "Error: Failed to load preview";
     }
     const containerElement = document.getElementById('largePreviewContainer');
