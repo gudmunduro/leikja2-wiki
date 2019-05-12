@@ -42,24 +42,27 @@ main section.main div.screenshots div.other  {
     margin: 0;
 }
 
-.testshm {
+main section.main div.screenshots div.main img {
     display: block;
-    background-color: red;
-    width: 95%;
-    height: 95%;
+    max-width: 95%;
+    max-height: 95%;
     margin: 2.5% auto;
 }
 
-.testsho {
+main section.main div.screenshots div.other img {
     display: block;
-    background-color: red;
-    width: 150px;
-    height: 90%;
-    margin: 0 10px
+    max-width: 19%;
+    max-height: 90%;
+    margin: 0 10px;
+    transition: filter 0.3s ease-out;
 }
-.testsho:first-child {
-    margin-left: 16px;
+main section.main div.screenshots div.other img:hover {
+    filter: opacity(0.6);
 }
+main section.main div.screenshots div.other img:first-child {
+    margin-left: 7.5%;
+}
+
 
 
 /* Info */
