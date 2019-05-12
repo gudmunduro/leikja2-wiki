@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #212121;
+    background-color: #101a25;
 }
 
 main {
@@ -105,8 +105,9 @@ main section.main div.info div.actions a.downloadButton {
     width: 100px;
     height: 20px;
     color: white;
-    background-color: #3F51B5;
+    background-color: #2d89ef;
     padding: 10px;
     text-align: center;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
 }
