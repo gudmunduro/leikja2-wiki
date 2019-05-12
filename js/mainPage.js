@@ -33,7 +33,7 @@ function ElementTagForType(type) {
 function UrlForPreview(preview) {
     switch (preview.type) {
         case 0: return "img/" + preview.name;
-        case 1: return "video/" + preview.name  
+        case 1: return "video/" + preview.name
     }
 }
 
@@ -47,7 +47,7 @@ function RenderPreview() {
     const previewData = previews[currentPreview];
     const previeweElement = document.createElement(ElementTagForType(previewData.type));
     previeweElement.src = UrlForPreview(previewData);
-    
+
     if (previewData.type === 1) {
         previeweElement.controls = true;
     }
