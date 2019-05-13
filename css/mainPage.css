@@ -131,6 +131,7 @@ main section.main div.info div.actions a.downloadButton {
     text-align: center;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+    user-select: none;
 }
 main section.main div.info div.actions a.downloadButton:hover {
     background-color: #1c5aa0;
