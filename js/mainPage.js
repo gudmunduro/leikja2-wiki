@@ -5,8 +5,8 @@
 */
 const previews = [
     {
-        name: 'Capture_133.PNG',
-        type: 0,
+        name: 'upptaka.mp4',
+        type: 1,
     },
     {
         name: 'screenshot1.PNG',

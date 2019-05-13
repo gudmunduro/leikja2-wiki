@@ -48,6 +48,12 @@ main section.main div.screenshots div.main img {
     max-height: 95%;
     margin: 2.5% auto;
 }
+main section.main div.screenshots div.main video {
+    display: block;
+    max-width: 95%;
+    max-height: 95%;
+    margin: 2.5% auto;
+}
 
 main section.main div.screenshots div.other img {
     display: block;
@@ -96,6 +102,21 @@ main section.main div.info h2 {
     width: 80%;
     margin: 10px auto;
 }
+main section.main div.info ul {
+    display: block;
+    list-style: none;
+    width: 80%;
+    margin: 10px auto;
+}
+main section.main div.info a {
+    color: #2196F3;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+main section.main div.info a:hover {
+    color: #1565C0;
+}
+
 main section.main div.info div.actions {
     height: 10%;
     width: 100%;
@@ -110,4 +131,7 @@ main section.main div.info div.actions a.downloadButton {
     text-align: center;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
+}
+main section.main div.info div.actions a.downloadButton:hover {
+    background-color: #1c5aa0;
 }
